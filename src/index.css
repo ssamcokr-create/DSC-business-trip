@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Plus Jakarta Sans", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .font-mono-num {
+    font-family: "JetBrains Mono", "Noto Sans KR", monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle horizontal scrollbar for wide engineering schedules */
+.schedule-scroll::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.schedule-scroll::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+.schedule-scroll::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.schedule-scroll::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

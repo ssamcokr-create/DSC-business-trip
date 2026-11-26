@@ -1,0 +1,1764 @@
+{
+  "updatedAt": "2026-11-25T09:00:00.000Z",
+  "teamMembers": [
+    {
+      "id": "tm_han_jc",
+      "name": "한재철",
+      "position": "팀장 / 책임",
+      "defaultTask": "M지원총괄",
+      "phone": "010-4102-1101",
+      "active": true,
+      "note": "체코/해외 M단계 지원 총괄 담당"
+    },
+    {
+      "id": "tm_yoon_yn",
+      "name": "윤용남",
+      "position": "책임연구원",
+      "defaultTask": "중량지그 T/O",
+      "phone": "010-4102-1102",
+      "active": true,
+      "note": "중량지그 T/O 및 기구 검토"
+    },
+    {
+      "id": "tm_seo_hs",
+      "name": "서희성",
+      "position": "선임연구원",
+      "defaultTask": "중량지그 티칭",
+      "phone": "010-4102-1103",
+      "active": true,
+      "note": "로봇 티칭 및 지그 시운전"
+    },
+    {
+      "id": "tm_park_sc",
+      "name": "박수철",
+      "position": "책임연구원",
+      "defaultTask": "셋업총괄",
+      "phone": "010-4102-1104",
+      "active": true,
+      "note": "인도 거점 FRM 라인 셋업 총괄"
+    },
+    {
+      "id": "tm_han_jh",
+      "name": "한주현",
+      "position": "선임연구원",
+      "defaultTask": "셋업 지원",
+      "phone": "010-4102-1105",
+      "active": true,
+      "note": "현장 셋업 지원 및 공정 대응"
+    },
+    {
+      "id": "tm_kim_kc",
+      "name": "김광찬",
+      "position": "선임연구원",
+      "defaultTask": "ROBOT 티칭 및 시운전",
+      "phone": "010-4102-1106",
+      "active": true,
+      "note": "로봇 티칭 및 자동화 시운전"
+    },
+    {
+      "id": "tm_lee_ms",
+      "name": "이만수",
+      "position": "책임연구원",
+      "defaultTask": "셋업총괄",
+      "phone": "010-4102-1107",
+      "active": true,
+      "note": "CCB 라인 셋업 총괄"
+    },
+    {
+      "id": "tm_seo_hb",
+      "name": "서흥범",
+      "position": "선임연구원",
+      "defaultTask": "로봇 JIG T/O 및 시운전",
+      "phone": "010-4102-1108",
+      "active": true,
+      "note": "로봇 지그 T/O 및 용접 시운전"
+    },
+    {
+      "id": "tm_park_hs",
+      "name": "박한샘",
+      "position": "선임연구원",
+      "defaultTask": "셋업총괄",
+      "phone": "010-4102-1109",
+      "active": true,
+      "note": "통풍 시트 라인 셋업 총괄"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vp_nuri_1",
+      "company": "누리ECS",
+      "name": "어세혁",
+      "defaultTask": "PC프로그램개선",
+      "specialty": "PC/제어",
+      "phone": "010-5501-2001",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_2",
+      "company": "누리ECS",
+      "name": "최명규",
+      "defaultTask": "PLC프로그램개선",
+      "specialty": "PLC/제어",
+      "phone": "010-5501-2002",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_3",
+      "company": "누리ECS",
+      "name": "혁찬희",
+      "defaultTask": "PLC프로그램개선",
+      "specialty": "PLC/비전·레이저",
+      "phone": "010-5501-2003",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_4",
+      "company": "누리ECS",
+      "name": "매용곤",
+      "defaultTask": "중량지그 배선 설치",
+      "specialty": "전장/배선",
+      "phone": "010-5501-2004",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_5",
+      "company": "누리ECS",
+      "name": "최억재",
+      "defaultTask": "중량지그 배선 설치",
+      "specialty": "전장/배선",
+      "phone": "010-5501-2005",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_6",
+      "company": "누리ECS",
+      "name": "김용석",
+      "defaultTask": "셋업 시운전,총괄 및 PLC 프로그램",
+      "specialty": "PLC 총괄",
+      "phone": "010-5501-2006",
+      "note": ""
+    },
+    {
+      "id": "vp_nuri_7",
+      "company": "누리ECS",
+      "name": "홍기원",
+      "defaultTask": "부스 셋업, PLC 배선",
+      "specialty": "PLC/배선",
+      "phone": "010-5501-2007",
+      "note": ""
+    },
+    {
+      "id": "vp_daol_1",
+      "company": "다올이엔지",
+      "name": "강가동",
+      "defaultTask": "1열조립컨베이어기구개선",
+      "specialty": "기구/컨베이어",
+      "phone": "010-5502-3001",
+      "note": ""
+    },
+    {
+      "id": "vp_daol_2",
+      "company": "다올이엔지",
+      "name": "최순영",
+      "defaultTask": "중량지그 기구부 설치",
+      "specialty": "기구/지그",
+      "phone": "010-5502-3002",
+      "note": ""
+    },
+    {
+      "id": "vp_daol_3",
+      "company": "다올이엔지",
+      "name": "김동훈",
+      "defaultTask": "조립설비 셋업",
+      "specialty": "조립설비",
+      "phone": "010-5502-3003",
+      "note": ""
+    },
+    {
+      "id": "vp_kfa_1",
+      "company": "한국FA",
+      "name": "서연동",
+      "defaultTask": "2열조립컨베이어기구개선",
+      "specialty": "기구/컨베이어",
+      "phone": "010-5503-4001",
+      "note": ""
+    },
+    {
+      "id": "vp_hj_1",
+      "company": "현진솔루텍",
+      "name": "정문탁",
+      "defaultTask": "조립설비 셋업",
+      "specialty": "기구/조립설비",
+      "phone": "010-5504-5001",
+      "note": ""
+    },
+    {
+      "id": "vp_nks_1",
+      "company": "NKS",
+      "name": "김홍기",
+      "defaultTask": "LASER프로그램개선",
+      "specialty": "LASER 설비",
+      "phone": "010-5505-6001",
+      "note": ""
+    },
+    {
+      "id": "vp_biton_1",
+      "company": "비트온",
+      "name": "미정",
+      "defaultTask": "전체 라인 PC 셋업, 자속면 작업 (LP2 대응)",
+      "specialty": "PC/자속면",
+      "phone": "",
+      "note": "투입 인원 확정 대기"
+    },
+    {
+      "id": "vp_sti_1",
+      "company": "STI",
+      "name": "정왕규",
+      "defaultTask": "1열 방음실 셋업 진행",
+      "specialty": "방음/조립",
+      "phone": "010-5506-7001",
+      "note": ""
+    },
+    {
+      "id": "vp_wetech_1",
+      "company": "위테크",
+      "name": "황연무",
+      "defaultTask": "용접지그 T/O",
+      "specialty": "용접지그",
+      "phone": "010-5507-8001",
+      "note": ""
+    },
+    {
+      "id": "vp_wetech_2",
+      "company": "위테크",
+      "name": "성낙운",
+      "defaultTask": "용접지그 T/O",
+      "specialty": "용접지그",
+      "phone": "010-5507-8002",
+      "note": ""
+    },
+    {
+      "id": "vp_mdi_1",
+      "company": "MDI",
+      "name": "김현중",
+      "defaultTask": "레이저 홈컷팅 개조",
+      "specialty": "LASER 설비",
+      "phone": "010-5508-9001",
+      "note": ""
+    },
+    {
+      "id": "vp_bj_1",
+      "company": "부정테크",
+      "name": "최철원",
+      "defaultTask": "기구",
+      "specialty": "기구설비",
+      "phone": "010-5509-1001",
+      "note": ""
+    },
+    {
+      "id": "vp_viva_1",
+      "company": "비바시스템",
+      "name": "오종열",
+      "defaultTask": "프로그램",
+      "specialty": "프로그램",
+      "phone": "010-5510-2001",
+      "note": ""
+    },
+    {
+      "id": "vp_viva_2",
+      "company": "비바시스템",
+      "name": "오태준",
+      "defaultTask": "#40,#50 마그넷 압입부 및 설비라인 개선",
+      "specialty": "설비개선",
+      "phone": "010-5510-2002",
+      "note": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "prj_nx5e_m",
+      "year": 2026,
+      "vehicleModel": "NX5e",
+      "stage": "[FRM] M단계 지원",
+      "destination": "체코 [트지네츠]",
+      "order": 1
+    },
+    {
+      "id": "prj_nx5e_frm",
+      "year": 2026,
+      "vehicleModel": "NX5e",
+      "stage": "[FRM]",
+      "destination": "체코 [트지네츠]",
+      "order": 2
+    },
+    {
+      "id": "prj_sx3i_frm",
+      "year": 2026,
+      "vehicleModel": "SX3i",
+      "stage": "[FRM]",
+      "destination": "인도 [만누르]",
+      "order": 3
+    },
+    {
+      "id": "prj_sx3i_ccb",
+      "year": 2026,
+      "vehicleModel": "SX3i",
+      "stage": "[CCB]",
+      "destination": "인도 [만누르]",
+      "order": 4
+    },
+    {
+      "id": "prj_ni1i_vent",
+      "year": 2026,
+      "vehicleModel": "NI1i",
+      "stage": "[통풍]",
+      "destination": "인도 [뱅갈로]",
+      "order": 5
+    },
+    {
+      "id": "prj_qy2i_frm",
+      "year": 2027,
+      "vehicleModel": "QY2i",
+      "stage": "[FRM]",
+      "destination": "인도 [뱅갈로]",
+      "order": 6
+    }
+  ],
+  "assignments": [
+    {
+      "id": "as_1",
+      "projectId": "prj_nx5e_m",
+      "personType": "internal",
+      "teamMemberId": "tm_han_jc",
+      "company": "디에스시",
+      "name": "한재철",
+      "task": "M지원총괄",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-10-09",
+      "plannedEndDate": "2026-11-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_2",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_1",
+      "company": "누리ECS",
+      "name": "어세혁",
+      "task": "PC프로그램개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-10",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-10-10",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_3",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_2",
+      "company": "누리ECS",
+      "name": "최명규",
+      "task": "PLC프로그램개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-15",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-10-15",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_4",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_3",
+      "company": "누리ECS",
+      "name": "혁찬희",
+      "task": "PLC프로그램개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-15",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-10-15",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_5",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_daol_1",
+      "company": "다올이엔지",
+      "name": "강가동",
+      "task": "1열조립컨베이어기구개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-10",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-10-10",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_6",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_kfa_1",
+      "company": "한국FA",
+      "name": "서연동",
+      "task": "2열조립컨베이어기구개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-20",
+      "plannedEndDate": "2026-11-01",
+      "actualStartDate": "2026-10-20",
+      "actualEndDate": "2026-11-01",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_7",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_hj_1",
+      "company": "현진솔루텍",
+      "name": "정문탁",
+      "task": "1열,2열기구부개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-10",
+      "plannedEndDate": "2026-10-14",
+      "actualStartDate": "2026-10-10",
+      "actualEndDate": "2026-10-14",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_8",
+      "projectId": "prj_nx5e_m",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nks_1",
+      "company": "NKS",
+      "name": "김홍기",
+      "task": "LASER프로그램개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-10-10",
+      "plannedEndDate": "2026-10-14",
+      "actualStartDate": "2026-10-10",
+      "actualEndDate": "2026-10-14",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "O",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_9",
+      "projectId": "prj_nx5e_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_yoon_yn",
+      "company": "디에스시",
+      "name": "윤용남",
+      "task": "중량지그 T/O",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-11-10",
+      "plannedEndDate": "2026-11-23",
+      "actualStartDate": "2026-11-10",
+      "actualEndDate": "2026-11-23",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "중량지그",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_10",
+      "projectId": "prj_nx5e_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_seo_hs",
+      "company": "디에스시",
+      "name": "서희성",
+      "task": "중량지그 티칭",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-11-10",
+      "plannedEndDate": "2026-11-23",
+      "actualStartDate": "2026-11-10",
+      "actualEndDate": "2026-11-23",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "중량지그",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_11",
+      "projectId": "prj_nx5e_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_4",
+      "company": "누리ECS",
+      "name": "매용곤",
+      "task": "중량지그 배선 설치",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-11-05",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-11-05",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "중량지그",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_12",
+      "projectId": "prj_nx5e_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_5",
+      "company": "누리ECS",
+      "name": "최억재",
+      "task": "중량지그 배선 설치",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-11-05",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-11-05",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "중량지그",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_13",
+      "projectId": "prj_nx5e_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_daol_2",
+      "company": "다올이엔지",
+      "name": "최순영",
+      "task": "중량지그 기구부 설치",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 1,
+      "plannedStartDate": "2026-11-05",
+      "plannedEndDate": "2026-11-15",
+      "actualStartDate": "2026-11-05",
+      "actualEndDate": "2026-11-15",
+      "status": "완료",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "중량지그",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_14",
+      "projectId": "prj_sx3i_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_park_sc",
+      "company": "디에스시",
+      "name": "박수철",
+      "task": "셋업총괄",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-09",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_15",
+      "projectId": "prj_sx3i_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_han_jh",
+      "company": "디에스시",
+      "name": "한주현",
+      "task": "셋업 지원",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-09",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_16",
+      "projectId": "prj_sx3i_frm",
+      "personType": "internal",
+      "company": "디에스시",
+      "name": "미정",
+      "task": "JIG T/O 및 시운전",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-09",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "O",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_17",
+      "projectId": "prj_sx3i_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_kim_kc",
+      "company": "디에스시",
+      "name": "김광찬",
+      "task": "ROBOT 티칭 및 시운전",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-09",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_18",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_6",
+      "company": "누리ECS",
+      "name": "김용석",
+      "task": "셋업 시운전,총괄 및 PLC 프로그램",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-13",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_19",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_7",
+      "company": "누리ECS",
+      "name": "홍기원",
+      "task": "부스 셋업, PLC 배선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-11",
+      "plannedEndDate": "2026-12-21",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_20",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "부스 셋업, PLC 배선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-11",
+      "plannedEndDate": "2026-12-21",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_21",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "부스 셋업, PLC 배선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-11",
+      "plannedEndDate": "2026-12-21",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_22",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "부스 셋업, PLC 배선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-11",
+      "plannedEndDate": "2026-12-21",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_23",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_biton_1",
+      "company": "비트온",
+      "name": "미정",
+      "task": "전체 라인 PC 셋업, 자속면 작업 (LP2 대응)",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-16",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_24",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_daol_3",
+      "company": "다올이엔지",
+      "name": "김동훈",
+      "task": "조립설비 셋업",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-14",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_25",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_hj_1",
+      "company": "현진솔루텍",
+      "name": "정문탁",
+      "task": "조립설비 셋업",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-16",
+      "plannedEndDate": "2026-12-30",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_26",
+      "projectId": "prj_sx3i_frm",
+      "personType": "vendor",
+      "vendorPersonId": "vp_sti_1",
+      "company": "STI",
+      "name": "정왕규",
+      "task": "1열 방음실 셋업 진행",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-20",
+      "plannedEndDate": "2026-12-24",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_27",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "internal",
+      "teamMemberId": "tm_lee_ms",
+      "company": "디에스시",
+      "name": "이만수",
+      "task": "셋업총괄",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-25",
+      "plannedEndDate": "2026-12-23",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_28",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "internal",
+      "teamMemberId": "tm_seo_hb",
+      "company": "디에스시",
+      "name": "서흥범",
+      "task": "로봇 JIG T/O 및 시운전",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2027-01-08",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "O",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_29",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "vendorPersonId": "vp_wetech_1",
+      "company": "위테크",
+      "name": "황연무",
+      "task": "용접지그 T/O",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-25",
+      "plannedEndDate": "2026-12-23",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "O",
+      "equipment": {
+        "co2": "O",
+        "spot": "O",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_30",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "vendorPersonId": "vp_wetech_2",
+      "company": "위테크",
+      "name": "성낙운",
+      "task": "용접지그 T/O",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-30",
+      "plannedEndDate": "2027-01-20",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "O",
+      "equipment": {
+        "co2": "O",
+        "spot": "O",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_31",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_6",
+      "company": "누리ECS",
+      "name": "김용석",
+      "task": "셋업 시운전, PLC프로그램",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2026-12-19",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_32",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "배선 및 PLC",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2026-12-10",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_33",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "배선 및 PLC",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2026-12-10",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_34",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "배선 및 PLC",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2026-12-10",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_35",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "배선 및 PLC",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-23",
+      "plannedEndDate": "2026-12-10",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_36",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_3",
+      "company": "누리ECS",
+      "name": "혁찬희",
+      "task": "비전,레이저 홈컷팅 셋업",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-20",
+      "plannedEndDate": "2027-01-05",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "출장중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "O",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_37",
+      "projectId": "prj_sx3i_ccb",
+      "personType": "vendor",
+      "vendorPersonId": "vp_mdi_1",
+      "company": "MDI",
+      "name": "김현중",
+      "task": "레이저 홈컷팅 개조",
+      "plannedHeadcount": 0,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-11-30",
+      "plannedEndDate": "2026-12-09",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "O",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_38",
+      "projectId": "prj_ni1i_vent",
+      "personType": "internal",
+      "teamMemberId": "tm_park_hs",
+      "company": "디에스시",
+      "name": "박한샘",
+      "task": "셋업총괄",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-10",
+      "plannedEndDate": "2026-12-24",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_39",
+      "projectId": "prj_ni1i_vent",
+      "personType": "vendor",
+      "vendorPersonId": "vp_bj_1",
+      "company": "부정테크",
+      "name": "최철원",
+      "task": "기구",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-10",
+      "plannedEndDate": "2026-12-20",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_40",
+      "projectId": "prj_ni1i_vent",
+      "personType": "vendor",
+      "vendorPersonId": "vp_viva_1",
+      "company": "비바시스템",
+      "name": "오종열",
+      "task": "프로그램",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-14",
+      "plannedEndDate": "2026-12-23",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_41",
+      "projectId": "prj_ni1i_vent",
+      "personType": "vendor",
+      "vendorPersonId": "vp_nuri_3",
+      "company": "누리ECS",
+      "name": "혁찬희",
+      "task": "PLC",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-14",
+      "plannedEndDate": "2026-12-23",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_42",
+      "projectId": "prj_ni1i_vent",
+      "personType": "vendor",
+      "vendorPersonId": "vp_viva_2",
+      "company": "비바시스템",
+      "name": "오태준",
+      "task": "#40,#50 마그넷 압입부 및 설비라인 개선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2026-12-14",
+      "plannedEndDate": "2026-12-23",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": "O"
+      },
+      "note": ""
+    },
+    {
+      "id": "as_43",
+      "projectId": "prj_qy2i_frm",
+      "personType": "internal",
+      "teamMemberId": "tm_park_sc",
+      "company": "디에스시",
+      "name": "박수철",
+      "task": "셋업총괄",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "2027-01-03",
+      "plannedEndDate": "2027-01-31",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_44",
+      "projectId": "prj_qy2i_frm",
+      "personType": "internal",
+      "company": "디에스시",
+      "name": "미정",
+      "task": "JIG T/O 및 시운전",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "O",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_45",
+      "projectId": "prj_qy2i_frm",
+      "personType": "internal",
+      "company": "디에스시",
+      "name": "미정",
+      "task": "ROBOT 티칭 및 시운전",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_46",
+      "projectId": "prj_qy2i_frm",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "셋업 시운전 총괄 및 PLC 프로그램",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_47",
+      "projectId": "prj_qy2i_frm",
+      "personType": "vendor",
+      "company": "누리ECS",
+      "name": "미정",
+      "task": "부스 셋업, PLC 배선",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_48",
+      "projectId": "prj_qy2i_frm",
+      "personType": "vendor",
+      "company": "비트온",
+      "name": "미정",
+      "task": "전체 라인 PC 셋업, 자속면 작업 (LP2 대응)",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_49",
+      "projectId": "prj_qy2i_frm",
+      "personType": "vendor",
+      "company": "다올이엔지",
+      "name": "미정",
+      "task": "조립설비 셋업",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    },
+    {
+      "id": "as_50",
+      "projectId": "prj_qy2i_frm",
+      "personType": "vendor",
+      "company": "현진솔루텍",
+      "name": "미정",
+      "task": "조립설비 셋업",
+      "plannedHeadcount": 1,
+      "actualHeadcount": 0,
+      "plannedStartDate": "",
+      "plannedEndDate": "",
+      "actualStartDate": "",
+      "actualEndDate": "",
+      "status": "준비중",
+      "costs": {
+        "meal": 0,
+        "lodging": 0,
+        "rental": 0
+      },
+      "jig": "",
+      "equipment": {
+        "co2": "",
+        "spot": "",
+        "laser": "",
+        "assemblyInspection": ""
+      },
+      "note": ""
+    }
+  ]
+}
