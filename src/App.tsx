@@ -12,6 +12,7 @@ import {
 import { INITIAL_SEED_DATA } from './data/seedData';
 import { generateId } from './utils/dateUtils';
 import { exportSchedulesToCsv } from './utils/exportCsv';
+import { exportSchedulesToPptx } from './utils/exportPptx';
 import { Sidebar } from './components/Sidebar';
 import { DashboardView } from './components/DashboardView';
 import { ProjectScheduleView } from './components/ProjectScheduleView';
@@ -20,6 +21,7 @@ import { VendorsView } from './components/VendorsView';
 import { TripAssignmentModal } from './components/TripAssignmentModal';
 import { AddMemberToProjectModal } from './components/AddMemberToProjectModal';
 import { ProjectModal } from './components/ProjectModal';
+import { ExportProjectsModal, ExportFormat } from './components/ExportProjectsModal';
 
 interface ConfirmState {
   title: string;
@@ -40,6 +42,7 @@ export default function App() {
   const [projectModalOpen, setProjectModalOpen] = useState(false);
   const [editingProject, setEditingProject] = useState<Project | null>(null);
   const [focusedProjectId, setFocusedProjectId] = useState<string | null>(null);
+  const [exportModalFormat, setExportModalFormat] = useState<ExportFormat | null>(null);
   const [confirmState, setConfirmState] = useState<ConfirmState | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -376,7 +379,8 @@ export default function App() {
         years={years}
         selectedYear={selectedYear}
         onSelectYear={setSelectedYear}
-        onExportCsv={() => exportSchedulesToCsv(db.projects, db.assignments)}
+        onExportCsv={() => setExportModalFormat('csv')}
+        onExportPptx={() => setExportModalFormat('pptx')}
         counts={counts}
         mobileOpen={mobileMenuOpen}
         onCloseMobile={() => setMobileMenuOpen(false)}
@@ -532,6 +536,29 @@ export default function App() {
           setEditingProject(null);
         }}
         onSave={handleSaveProject}
+      />
+
+      <ExportProjectsModal
+        open={exportModalFormat !== null}
+        format={exportModalFormat ?? 'pptx'}
+        projects={db.projects}
+        assignments={db.assignments}
+        selectedYear={selectedYear}
+        focusedProjectId={focusedProjectId}
+        onClose={() => setExportModalFormat(null)}
+        onConfirmExport={(selectedProjects, fmt) => {
+          setExportModalFormat(null);
+          if (fmt === 'pptx') {
+            exportSchedulesToPptx(selectedProjects, db.assignments, selectedYear)
+              .then(() =>
+                showToast(`선택한 ${selectedProjects.length}개 프로젝트 PPT 파일이 생성되었습니다.`)
+              )
+              .catch(() => showToast('PPT 파일 생성 중 오류가 발생했습니다.'));
+          } else {
+            exportSchedulesToCsv(selectedProjects, db.assignments);
+            showToast(`선택한 ${selectedProjects.length}개 프로젝트 엑셀(CSV) 파일이 생성되었습니다.`);
+          }
+        }}
       />
 
       {/* Delete Confirmation Dialog */}

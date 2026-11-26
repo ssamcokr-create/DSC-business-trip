@@ -1,4 +1,4 @@
-import { LayoutDashboard, Table2, Users, Building2, Download, X } from 'lucide-react';
+import { LayoutDashboard, Table2, Users, Building2, Download, Presentation, X } from 'lucide-react';
 import { WorkspaceTab } from '../types/trip';
 
 interface SidebarProps {
@@ -8,6 +8,7 @@ interface SidebarProps {
   selectedYear: number | 'all';
   onSelectYear: (year: number | 'all') => void;
   onExportCsv: () => void;
+  onExportPptx: () => void;
   counts: {
     projects: number;
     teamMembers: number;
@@ -25,6 +26,7 @@ export function Sidebar({
   selectedYear,
   onSelectYear,
   onExportCsv,
+  onExportPptx,
   counts,
   mobileOpen,
   onCloseMobile,
@@ -133,6 +135,14 @@ export function Sidebar({
       </nav>
 
       <div className="p-4 border-t border-slate-800 space-y-2">
+        <button
+          type="button"
+          onClick={onExportPptx}
+          className="w-full flex items-center justify-center gap-2 px-3 py-2.5 rounded-lg text-xs font-medium bg-blue-700 hover:bg-blue-600 text-white transition-colors whitespace-nowrap"
+        >
+          <Presentation className="w-3.5 h-3.5 shrink-0" />
+          <span>PPT 파일 내보내기</span>
+        </button>
         <button
           type="button"
           onClick={onExportCsv}
